@@ -12,7 +12,13 @@
     />
 
     <!-- Bootstrap Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -21,23 +27,32 @@
   </head>
   <body id="home">
     <!-- NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-primary bg-prymary shadow fixed-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-primary bg-prymary shadow fixed-top"
+    >
       <div class="container">
         <img src="img/logo/logo.jpeg" width="30" style="margin: 5px" />
         <a class="navbar-brand" href="#">Dwika Cahya Febriana</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cv">CV</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Project</a>
@@ -52,9 +67,16 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/dwika.jpeg" alt="Dwika Cahya Febriana" width="200" class="rounded-circle img-thumbnail" />
+      <img
+        src="img/dwika.jpeg"
+        alt="Dwika Cahya Febriana"
+        width="200"
+        class="rounded-circle img-thumbnail"
+      />
       <h1 class="display-4">Dwika Cahya Febriana</h1>
-      <p class="lead">Student Of POLITEKNIK TEDC BANDUNG</p>
+      <p class="lead">
+        FRONTEND DEVELOPER | Student Of POLITEKNIK TEDC BANDUNG
+      </p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -72,10 +94,25 @@
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center class fs-5 text-center">
-          <div class="col-md-4">
+        <div class="row justify-content-center class fs-5 p-5 text-center">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1500">
             <p>
-              Dwika Cahya Febriana, From Cimahi in West Java. Im student in POLITEKNIK TEDC BANDUNG, And Im still learning for everything.
+              Dwika Cahya Febriana, From Cimahi in West Java. Good team work
+              with a team or Individual Honest, self-discipline, can work with
+              or without supervisory Continuous Learning Used to working under
+              pressure.
+            </p>
+          </div>
+          <div
+            class="col-md-4"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <p>
+              As for my hobbies, I like sports, music, especially playing the
+              keyboard and singing, and I like learning about new things which I
+              think are interesting things.
             </p>
           </div>
         </div>
@@ -89,72 +126,99 @@
       </svg>
     </section>
 
-    <!-- CV -->
-
-<section id="cv">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Curriculum Vitae</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-5 mb-3">
-            <div class="card">
-              <img src="img/projects/CV.png" class="card-img-top" alt="Project 1" />
-              <div class="card-body">
-                <p class="card-text"></p>
-              </div>
-            </div>
-          </div>
-
-      </div>
-    </section>
-    
     <!-- Projects -->
     <section id="projects">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>What Do I Do</h2>
+            <h2>My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
+          <div
+            class="col-md-4 mb-3"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="250"
+          >
             <div class="card">
-              <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1" />
+              <img
+                src="img/projects/1.png"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <p class="text-center">Web Wedding</p>
               <div class="card-body">
                 <p class="card-text"></p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div
+            class="col-md-4 mb-3"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-delay="250"
+          >
             <div class="card">
-              <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2" />
+              <img
+                src="img/projects/2.png"
+                class="card-img-top"
+                alt="Project 2"
+              />
+              <p class="text-center">
+                Sistem Informasi Geografis Lokasi Bengkel dan SPBU
+              </p>
               <div class="card-body">
                 <p class="card-text"></p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div
+            class="col-md-4 mb-3"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-delay="300"
+          >
             <div class="card">
-              <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3" />
+              <img
+                src="img/projects/3.jpg"
+                class="card-img-top"
+                alt="Project 3"
+              />
               <div class="card-body">
                 <p class="card-text"></p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div
+            class="col-md-4 mb-3"
+            data-aos="flip-left"
+            data-aos-duration="2000"
+            data-aos-delay="300"
+          >
             <div class="card">
-              <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4" />
+              <img
+                src="img/projects/4.jpg"
+                class="card-img-top"
+                alt="Project 4"
+              />
               <div class="card-body">
                 <p class="card-text"></p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div
+            class="col-md-4 mb-3"
+            data-aos="flip-right"
+            data-aos-duration="3000"
+            data-aos-delay="400"
+          >
             <div class="card">
-              <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5" />
+              <img
+                src="img/projects/5.jpg"
+                class="card-img-top"
+                alt="Project 5"
+              />
               <div class="card-body">
                 <p class="card-text"></p>
               </div>
@@ -171,6 +235,116 @@
       </svg>
     </section>
 
+    <!-- Gallery -->
+    <section class="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 justify-content-center">
+            <a href="">
+              <img
+                src="img/gallery/thumbnail/1.png"
+                alt="Gambar 1"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img
+                src="img/gallery/thumbnail/2.png"
+                alt="Gambar 2"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img
+                src="img/gallery/thumbnail/3.png"
+                alt="Gambar 3"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img
+                src="img/gallery/thumbnail/4.png"
+                alt="Gambar 4"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img
+                src="img/gallery/thumbnail/5.png"
+                alt="Gambar 5"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img
+                src="img/gallery/thumbnail/6.png"
+                alt="Gambar 6"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img
+                src="img/gallery/thumbnail/7.png"
+                alt="Gambar 7"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img
+                src="img/gallery/thumbnail/8.png"
+                alt="Gambar 8"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img
+                src="img/gallery/thumbnail/9.png"
+                alt="Gambar 9"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="">
+              <img
+                src="img/gallery/thumbnail/10.png"
+                alt="Gambar 10"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2efff"
+          fill-opacity="1"
+          d="M0,224L30,218.7C60,213,120,203,180,213.3C240,224,300,256,360,256C420,256,480,224,540,213.3C600,203,660,213,720,213.3C780,213,840,203,900,218.7C960,235,1020,277,1080,266.7C1140,256,1200,192,1260,186.7C1320,181,1380,235,1410,261.3L1440,288L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
     <!-- Contact -->
     <section id="contact">
       <div class="container">
@@ -181,27 +355,64 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <div class="alert alert-primary alert-dismissible fade show d-none my-alert" role="alert">
+            <div
+              class="alert alert-primary alert-dismissible fade show d-none my-alert"
+              role="alert"
+            >
               <strong>Terima Kasih!</strong> Pesan anda sudah kami terima.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close"
+              ></button>
             </div>
             <form name="wpu-contact-form">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  aria-describedby="name"
+                  name="nama"
+                />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="email"
+                  name="email"
+                />
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Pesan</label
+                >
+                <textarea
+                  class="form-control"
+                  id="pesan"
+                  rows="3"
+                  name="pesan"
+                ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+              <button type="submit" class="btn btn-primary btn-kirim">
+                Kirim
+              </button>
 
-              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              <button
+                class="btn btn-primary btn-loading d-none"
+                type="button"
+                disabled
+              >
+                <span
+                  class="spinner-border spinner-border-sm"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
                 Loading...
               </button>
             </form>
@@ -210,7 +421,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#6c757d"
+          fill="#0d6efd"
           fill-opacity="1"
           d="M0,160L48,154.7C96,149,192,139,288,160C384,181,480,235,576,245.3C672,256,768,224,864,218.7C960,213,1056,235,1152,213.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -218,8 +429,15 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-secondary text-white text-center pb-5">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/dwika_febriana/" class="text-white fw-bold">Dwika Cahya Febriana</a></p>
+    <footer class="bg-primary text-white text-center p-2">
+      <p>
+        Created with <i class="bi bi-heart-fill text-danger"></i> by
+        <a
+          href="https://www.instagram.com/dwika_febriana/"
+          class="text-white fw-bold"
+          >Dwika Cahya Febriana</a
+        >
+      </p>
     </footer>
 
     <script
@@ -227,8 +445,15 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      const scriptURL = "https://script.google.com/macros/s/AKfycbwQKNh303swHXUZW_ctGs3vi5fuCfP1mzXV2aFRvCBLjK3R3npWJ7p8Vm7IZ3MSPJbM/exec";
+      AOS.init({ once: true });
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwQKNh303swHXUZW_ctGs3vi5fuCfP1mzXV2aFRvCBLjK3R3npWJ7p8Vm7IZ3MSPJbM/exec";
       const form = document.forms["wpu-contact-form"];
       const btnKirim = document.querySelector(".btn-kirim");
       const btnLoading = document.querySelector(".btn-loading");

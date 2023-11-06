@@ -1,20 +1,24 @@
-body {
-    min-height: 3000px;
-}
-
 .jumbotron {
-    padding-top: 7rem;
-    background-color: #e2efff;
+  padding-top: 7rem;
+  background-color: #e2efff;
 }
 
 #projects {
-    background-color: #e2efff;
+  background-color: #e2efff;
 }
 
 section {
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
 
-#cv {
-    background-color: #e2efff;
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
+
+#contact {
+  background-color: #e2efff;
 }
