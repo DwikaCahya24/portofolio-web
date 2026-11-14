@@ -1,3 +1,9 @@
+.navbar-toggler {
+  background-color: #9b9d9e;
+  width: 1em;
+  height: 1em;
+}
+
 .jumbotron {
   padding-top: 7rem;
   background-color: #fcfcfc;
@@ -33,4 +39,8 @@ section {
 
 #contact {
   background-color: #fcfcfc;
+}
+
+.footer {
+  background-color: #f2f1d0;
 }
