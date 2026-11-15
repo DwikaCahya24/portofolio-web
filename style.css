@@ -4,6 +4,18 @@
   height: 1em;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #9b9d9e;
+    border-color: #000000;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #000000;
+    border-color: #0d6efd;
+}
+
 .jumbotron {
   padding-top: 7rem;
   background-color: #fcfcfc;
